@@ -1,11 +1,11 @@
 2025-09-07
 ==================
-  * Added support for git LFS
-  * Added support for Sourcetree as a diftool & mergetool (FREE app) but I prefer Tower
-  * Updated to Ruby-3.2 compile by changing `#.exists?` to `#.exist?`
-  * Clean up the vimrc file (but I'm including my custom settings)
-  * Swap MISE for RVM for managing language runtimes and versions
-  * Add Minitest package & VIM config
+  * Added support for [Git LFS](https://git-lfs.com)
+  * Added support for [Sourcetree](https://www.sourcetreeapp.com) as a diftool & mergetool (FREE app) but I prefer [Tower](https://www.git-tower.com/mac)
+  * Updated to [Ruby-3.2](https://rubyreferences.github.io/rubychanges/3.2.html) compile preference by changing `#.exists?` to `#.exist?` across the repo
+  * Clean up the vimrc file & include more custom configs
+  * Swap [MISE](https://mise.jdx.dev) for [RVM](https://rvm.io) for managing language runtimes and versions
+  * Add [Minitest](https://github.com/minitest/minitest) config and VIM package: [vim-test](https://github.com/vim-test/vim-test)
 
 2015-10-27
 ==================
