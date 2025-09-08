@@ -5,6 +5,7 @@
   * Updated to Ruby-3.2 compile by changing `#.exists?` to `#.exist?`
   * Clean up the vimrc file (but I'm including my custom settings)
   * Swap MISE for RVM for managing language runtimes and versions
+  * Add Minitest package & VIM config
 
 2015-10-27
 ==================
