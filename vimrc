@@ -186,11 +186,11 @@ nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 " map <Space>aa :call RunAllSpecs()<CR>
 
 " MINITEST
-map <Space>a :call RunAllSpecs()<CR>
-map <Space>t :call TestFile()<CR>
 map <Space>v :! rails test --verbose<CR>
-map <Space>a :! rails test<CR>
-map <Space>rr :call TestNearest()<CR>
+map <Space>a :TestSuite<CR>
+" map <Space>rr :call TestNearest()<CR>
+noremap <Space>rr :TestNearest<CR>
+noremap <Space>tt :TestFile<CR>
 
 " ================ Deleted or Unused Shortcuts =======================
 
