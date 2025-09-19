@@ -2,6 +2,8 @@ source $HOME/.zprezto/runcoms/zshrc
 
 for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 
+export PATH="$PATH:$HOME/.rvm/bin"
+
 # Mise (modern version manager) is already activated below
 # No need for RVM - mise handles Ruby, Node, Python, etc.
 
@@ -10,4 +12,5 @@ export LDFLAGS="-L/opt/homebrew/opt/postgresql@14/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@14/include"
 
 # Activate mise (modern version manager for Ruby, Node, Python, etc.)
-eval "$(mise activate zsh)"
+# eval "$(mise activate zsh)"
+export REDIS_URL=redis://localhost:6379/1
