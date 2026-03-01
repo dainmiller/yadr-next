@@ -1,3 +1,7 @@
+2026-03-01
+==================
+  * Remove the excessive warnings from rubocop on `.rb` files. Not needed
+
 2025-09-07
 ==================
   * Added support for git LFS
